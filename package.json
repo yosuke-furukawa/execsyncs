@@ -28,8 +28,7 @@
   },
   "homepage": "https://github.com/yosuke-furukawa/execsyncs",
   "dependencies": {
-    "nan": "^1.2.0",
-    "semver": "^3.0.1"
+    "nan": "^1.2.0"
   },
   "devDependencies": {
     "espower-loader": "^0.7.1",

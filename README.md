@@ -5,7 +5,7 @@ execsyncs
 execSync for node v0.10 and v0.11.
 
 If your node version is v0.11, execsyncs uses core library (child_process.execSync).
-However, if your node version is v0.10, execsyncs uses own native module(fallback).
+However, if your node version is v0.10, execsyncs uses own native module (execsync.cc).
 
 How to use
 ================
