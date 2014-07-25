@@ -1,0 +1,39 @@
+{
+  "name": "execsyncs",
+  "version": "0.0.1",
+  "description": "execSync for v0.10 and v0.11",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "node-gyp rebuild",
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/execsyncs"
+  },
+  "keywords": [
+    "execsync",
+    "execSync",
+    "sync",
+    "exec",
+    "shell"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/execsyncs/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/execsyncs",
+  "dependencies": {
+    "nan": "^1.2.0",
+    "semver": "^3.0.1"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.7.1",
+    "intelli-espower-loader": "^0.2.0",
+    "power-assert": "^0.7.2"
+  }
+}
